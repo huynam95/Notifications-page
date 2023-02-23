@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JS -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <div class="noti-header">
+        <div class="noti-header--left">
+          <p class="noti-header--left--text">Notifications</p>
+
+          <p class="noti-header--left--num">3</p>
+        </div>
+
+        <button class="noti-header--right mark-btn">Mark all as read</button>
+      </div>
+
+      <!-- ROW 1 -->
+
+      <a class="noti-rows" href="#">
+        <div class="row row-1 unread">
+          <span class="avatars"
+            ><img
+              class="avatar"
+              src="assets/images/avatar-mark-webber.webp"
+              alt="Avatar of Mark Webber"
+          /></span>
+
+          <div class="noti">
+            <p class="noti-text">
+              <span class="username">Mark Webber</span> reacted to your recent
+              post
+              <span class="link">My first tournament today!</span>
+              <span class="red-dot"></span>
+            </p>
+
+            <p class="noti-time">1m ago</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- ROW 2 -->
+      <a class="noti-rows" href="#">
+        <div class="row row-2 unread">
+          <span class="avatars">
+            <img
+              class="avatar"
+              src="assets/images/avatar-angela-gray.webp"
+              alt="Avatar of Angela Gray"
+          /></span>
+
+          <div class="noti">
+            <p class="noti-text">
+              <span class="username">Angela Gray</span> followed you
+
+              <span class="red-dot"></span>
+            </p>
+
+            <p class="noti-time">5m ago</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- ROW 3 -->
+      <a class="noti-rows" href="#">
+        <div class="row row-3 unread">
+          <span class="avatars">
+            <img
+              class="avatar"
+              src="assets/images/avatar-jacob-thompson.webp"
+              alt="Avatar of Jacob Thompson"
+            />
+          </span>
+
+          <div class="noti">
+            <p class="noti-text">
+              <span class="username">Jacob Thompson</span>
+              has joined your group
+              <span class="link2">Chess Club</span>
+              <span class="red-dot"></span>
+            </p>
+
+            <p class="noti-time">5m ago</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- ROW 4 -->
+      <a class="noti-rows" href="#">
+        <div class="row row-4">
+          <span class="avatars">
+            <img
+              class="avatar"
+              src="assets/images/avatar-rizky-hasanuddin.webp"
+              alt="Avatar of Rizky Hasanuddin"
+            />
+          </span>
+
+          <div class="noti noti2">
+            <div class="flex">
+              <p class="noti-text">
+                <span class="username">Rizky Hasanuddin</span> sent you a
+                private message
+              </p>
+
+              <div class="red-dot hidden"></div>
+            </div>
+
+            <p class="noti-time">5 days ago</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="#">
+        <p class="message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+      </a>
+
+      <!-- ROW 5 -->
+      <a class="noti-rows" href="#">
+        <div class="row row-5">
+          <span class="avatars">
+            <img
+              class="avatar"
+              src="assets/images/avatar-kimberly-smith.webp"
+              alt="Avatar of Kimberly Smith"
+            />
+          </span>
+
+          <div class="flex2">
+            <div class="noti">
+              <div class="flex">
+                <p class="noti-text">
+                  <span class="username">Kimberly Smith</span>
+                  commented on your picture
+                </p>
+
+                <div class="red-dot hidden"></div>
+              </div>
+
+              <p class="noti-time">1 week ago</p>
+            </div>
+
+            <span class="chess"
+              ><img
+                class="chess-img"
+                src="assets/images/image-chess.webp"
+                alt="A girl playing chess"
+            /></span>
+          </div>
+        </div>
+      </a>
+
+      <!-- ROW 6 -->
+      <a class="noti-rows" href="#">
+        <div class="row row-6">
+          <span class="avatar"
+            ><img
+              class="avatar"
+              src="assets/images/avatar-nathan-peterson.webp"
+              alt="Avatar of Nathan Peterson"
+          /></span>
+
+          <div class="noti">
+            <div class="flex">
+              <p class="noti-text">
+                <span class="username">Nathan Petersons</span> reacted to your
+                recent post
+                <span class="link"
+                  >5 end-game strategies to increase your win rate</span
+                >
+              </p>
+
+              <div class="red-dot hidden"></div>
+            </div>
+
+            <p class="noti-time">2 weeks ago</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- ROW 7 -->
+      <a class="noti-rows" href="#">
+        <div class="row row-6">
+          <span class="avatars" href="#">
+            <img
+              class="avatar"
+              src="assets/images/avatar-anna-kim.webp"
+              alt="Avatar of Anna Kim"
+          /></span>
+
+          <div class="noti">
+            <div class="flex">
+              <p class="noti-text">
+                <span class="username">Anna Kim</span> left the group
+                <span class="link2">Chess Club</span>
+              </p>
+
+              <div class="red-dot hidden"></div>
+            </div>
+
+            <p class="noti-time">2 weeks ago</p>
+          </div>
+        </div>
+      </a>
+    </main>
+  </body>
+</html>
